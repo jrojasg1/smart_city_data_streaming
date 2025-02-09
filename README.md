@@ -2,6 +2,8 @@
 
 This repository contains a real-time data processing system that integrates Confluent Kafka, Apache Spark, and AWS services such as Glue, Redshift, and Athena to efficiently process and analyze streaming data.
 
+
+
 ## System Overview
 
 The system is designed to process real-time data from multiple sources, including:
@@ -14,6 +16,7 @@ The system is designed to process real-time data from multiple sources, includin
 These data streams are ingested into **Confluent Kafka**, where they are processed using **Apache Spark Streaming** and stored in AWS for further analytics.
 
 ## Architecture
+![image](https://github.com/user-attachments/assets/e290c69d-a4fb-4a5d-9436-3c2eb73175a5)
 
 ### **1. Data Ingestion**
 - Data from various sources is pushed into Kafka topics.
